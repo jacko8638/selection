@@ -1,5 +1,7 @@
-
+#gets input and sets as int
 mark = int(input('Please enter your mark percentage'))
+
+#chacks in what grade boundary the mark is and prints grade
 if mark >= 0 and mark <= 19:
     print ('Your grade is E')
 elif mark >= 20 and mark <= 39:
